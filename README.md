@@ -36,9 +36,12 @@ public class Person {
 
 }
 
-class Main{
+public class Main {
+
     public static void main(String[] args) {
+    
         Person p = new Person().firstname("andrei").lastname("kush").age(20).city("Hague").phoneNumber(1234567);
+    
     }
 
 }
